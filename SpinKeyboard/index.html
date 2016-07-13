@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<title>Spin Keyboard</title>
+	<link rel="stylesheet"  href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<link rel="stylesheet"  href="css/style.css">
+	<link rel="stylesheet"  href="css/keyboard-style.css">
+</head>
+<body>
+	<div class="ui-page" id="pageRotaryEvent" data-enable-page-scroll="false">
+	<img src="cursor.png" id="cursor"></img>
+	<img src="EnCaps.png" id="alphabet"></img>
+		<header class="ui-header">
+			<h2 class="ui-title" onclick="loadDB()">Spin Keyboard</h2>
+		</header>
+		<div class="ui-content">
+			<div id="enter_text">Enter</div>
+			<div id="result"></div>
+		</div>
+		
+		<script src="js/rotaryEvent.js"></script>
+	</div>
+</body>
+<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/jqueryrotate.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/fillDB.js"></script>
+</html>

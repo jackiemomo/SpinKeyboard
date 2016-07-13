@@ -1,0 +1,13 @@
+#cursor{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#alphabet{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#circleprogress{
+	display: none;
+}
