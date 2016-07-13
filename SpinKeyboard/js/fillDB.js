@@ -2,15 +2,15 @@ var indexedDB = window.indexedDB || window.mozIndexedDB
 		|| window.webkitIndexedDB || window.msIndexedDB, IDBTransaction = window.IDBTransaction
 		|| window.webkitIDBTransaction || window.msIDBTransaction, baseName = "spin_dictionary", storeName = "patterns", request, db;
 
-function loadDB() {
+(function() {
 	var wordData = [ {
-		pattern : '+18-9+15-19+7',
+		pattern : '+19-11+17-21+9',
 		word : 'tizen'
 	}, {
-		pattern : '+22-16+12-12',
+		pattern : '+22-18+14-14',
 		word : 'awesome'
 	}, {
-		pattern : '+17',
+		pattern : '+18',
 		word : 'is'
 	} ];
 	var tizenDB = {};
@@ -36,7 +36,7 @@ function loadDB() {
 			console.log("added objectstore to db");
 		}
 	};
-}
+}());
 
 function showDataRecord(pattern) {
 	var transaction = db.transaction([ storeName ], "readonly");

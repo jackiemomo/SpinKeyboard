@@ -1,8 +1,10 @@
 #delete
+res/wgt/js/old_fillDB.js
 #add
 #modify
 res/wgt/author-signature.xml
 res/wgt/signature1.xml
 res/wgt/css\keyboard-style.css
-res/wgt/js\jqueryrotate.js
+res/wgt/index.html
+res/wgt/js\fillDB.js
 res/wgt/js\rotaryEvent.js
