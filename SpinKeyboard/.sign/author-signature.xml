@@ -80,7 +80,7 @@
 </Reference>
 <Reference URI="js%2FfillDB.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vdmUd1pOTb5eBwLJxjY3LlJv8garG/8FGcEQm7fCJGg=</DigestValue>
+<DigestValue>YHlEnM2kXWJxL2vljZcxtljN2gL67INZYMbCRqC4y6o=</DigestValue>
 </Reference>
 <Reference URI="js%2Fjquery-3.0.0.min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -96,7 +96,7 @@
 </Reference>
 <Reference URI="js%2FrotaryEvent.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>os500jcpaR2ntsXMcn5sgPryCQUV/TZu1cQm5fLN8ik=</DigestValue>
+<DigestValue>zQActn8PaA4YySJ5a2rMQJ1mZDMXAnT+mdEiEuEVvr4=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2FLICENSE.Flora">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1083,11 +1083,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-czy1VFtg5M88+o7jk4njEeSap4gr9I/Ke26rNcO0ou8v5qP2msD5TqOgkaq+nBL9Lx+0Bx5L9N9N
-ZX7i1h3/uGAAQVTESR4naA6dPSfOq7LdJEkW2lHdltKa8dltOpCLs2WwTQ9yY915ib2idO82GgFN
-BY1rFAq6jl34JgJ5O6t0p08IWl9BfSnntop95TGHKvanajB8gLgsuayCeZEPg/BrSYCgupsX065N
-M/NjglTkkBHN91X00NPK4NA7qoYIWXS+5R/AM4tD2BKdHSwMyJcAfm9Nx/Xqo2UPOEEM8Je5uPmw
-9Id5qCtq05HPaHv/8yKe0CX6ybelmESf6ZetTw==
+JLGxwuSq6zMVVilQRNkGm4mvvwlbqIqYEZDuKohdqwych6gDJdceSzIkLfcX06GjfwLfibhLFZ4J
+MDy4R/ksV8CrMbcEz13XV4kamZ9jO+jYkFO8vkvykqvjExY3r5UFjAbm3ARhNN7G0pYoMPD6Pd2v
+lcUS7bTTkRNuWO5LsMqtoqzZvFe7Tbwe9Br6/gZVelSZIxasaOvaSF0b03LQpR0FkrfVM5npvoWU
+XwPmMAE6MFNvRXDmwCxHVynkiG/vZgiy7Mq+HTJj/weGwUTEQXhNYRA3QPse8sbW9sP6omPbyZd2
+DlQ/yUARTbiU3zCziC5QFXPflcmWX7F/hrstjg==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

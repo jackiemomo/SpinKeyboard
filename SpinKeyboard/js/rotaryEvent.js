@@ -1,6 +1,8 @@
 /*global tau */
 (function() {
 	var page = document.getElementById("pageRotaryEvent"), rotaryDetentHandler, currentDirection = "", command = "", counter = 0, value = 0;
+	
+	var current_dt, last_dt;
 	/**
 	 * pagebeforeshow event handler Do preparatory works and adds event
 	 * listeners
@@ -15,31 +17,33 @@
 
 			if (direction === "CW") {
 				// Right direction
-
-				if (currentDirection == "")
-					currentDirection = "CW";
-				if (currentDirection != "CW") {
-					command = command + "-" + counter
-					counter = 0;
-					currentDirection = "CW";
-				}
-				counter++;
 				value++;
+				if (currentDirection == ""){
+					currentDirection = "CW";
+					//last_dt = tizen.time.getCurrentDateTime();
+				}
+					
+				if (currentDirection != "CW") {
+					command = command + String.fromCharCode(96 + value);
+					currentDirection = "CW";
+				}
+				
 			} else if (direction === "CCW") {
-
-				if (currentDirection == "")
-					currentDirection = "CCW";
-				if (currentDirection != "CCW") {
-					command = command + "+" + counter;
-					counter = 0;
+				
+				if (currentDirection == ""){
 					currentDirection = "CCW";
 				}
-				counter++;
+				if (currentDirection != "CCW") {
+					command = command + String.fromCharCode(96 + value +  1);;
+					currentDirection = "CCW";
+				}
 				value--;
 			}
 			resultDiv.innerText = command;
-			if ((value == 26) || (value == -26)){
+			if (value == 26)
 				value = 0;
+			if(value == -1){
+				value = 26;
 			}
 		      $("#cursor").rotate(value*360/26);
 		};
@@ -73,4 +77,9 @@
 		currentDirection = "";
 	});
 	
+	function valueToLetter(value){
+		    String.fromCharCode(94 + value);
+	}
+	
 }());
+
