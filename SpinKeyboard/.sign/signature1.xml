@@ -12,7 +12,7 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>I6YarfY7GODc+i2JIZ4Q+IOl7o1iJ6RIixniwVj07do=</DigestValue>
+<DigestValue>+dsAnRpDeeCprvyO4naIVC1geMFwoFivkfECBfjZDYk=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -84,7 +84,7 @@
 </Reference>
 <Reference URI="js%2FfillDB.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>EaiKYN4x8hwqUebrV85hMh2z3MVFWQOxJP2iRAOEoUM=</DigestValue>
+<DigestValue>6vhQ2GFoR+fRF+DHpebbzddwmzKAqmNhQr9vMtp+sio=</DigestValue>
 </Reference>
 <Reference URI="js%2Fjquery-3.0.0.min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -100,7 +100,7 @@
 </Reference>
 <Reference URI="js%2FrotaryEvent.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>/wo87Q6es1Fzz1qOpPd5xHt3EzWuDy8g8XlJVXaBpBc=</DigestValue>
+<DigestValue>shLXBrtEuTPBkSucU7TxlkmM/Dv3f8qKJdpZmXmMJcU=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2FLICENSE.Flora">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1087,32 +1087,32 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-RvXIDE0GrRrpMWJTQJimqzs5dxh1ByCwyFWN8JtC/22Ep+snN4m/i0q/iVCyZUGf0te8mUMptX0W
-Z0ayPWSP2a1/uYFHqomS5B7CYBpYYo2v+tyqVjiZR1ZJm56ArGTg+DIvaZ+v+nC8TmpO2/2nM6Lv
-oJDPyrWFhrolJ7lHXBbZE+BlETkNXRwhFIcEYI6V8PRULTwGaXYPqFhljRItQP9GinS23FsyEUEz
-VS6y2fPsO3Xclmr6nMv9+0zExDqVS0aiiPuUJeMmmZOGTykuQC3yyxt46JdUajYWjvFxSotROHwL
-cAumcGAHPspVPaWKkV/sd9UU5VRgy2qq8Lu/2g==
+gzxjH7se43WF1iZakDbSL3a2Z+DI/LeCYy/1l82OaAJbO/B63WXoOFW8Q8lv6BDX6ALL4xkXtyox
+MWfIYmaRbgjgwQorraAkXF9ach+1wJ0Mpo/zEENaiURhhB7Q8LeaYZ8H5ck8mQCxx0MqNzsr6k44
+BxO8eszYG44Gw36wGC5o/ZsWcG8xbcBaP/zbWjR/llKF24HBj1YEyRvOozm5pxxWfmPXSBKJe8Oi
+rAOu1PkSzLwz+qp7cpSwvoe2OcmciVB0uDgXr5QnuAQ9rtbTzoPxtmjNeKYcXC7cU9nJyqxQ63Ro
+Qq0t0D3ReDgBBDT4tNtZ7R8NX5xLKiqAZt48Fw==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
 <X509Certificate>
-MIIDnzCCAoegAwIBAgIBZTANBgkqhkiG9w0BAQsFADCBnjELMAkGA1UEBhMCS1IxFDASBgNVBAgM
+MIIDojCCAoqgAwIBAgIBZTANBgkqhkiG9w0BAQsFADCBnjELMAkGA1UEBhMCS1IxFDASBgNVBAgM
 C1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBFbGVjdHJvbmlj
 cyBDby4sIEx0ZC4xDzANBgNVBAsMBk1vYmlsZTEwMC4GA1UEAwwnU2Ftc3VuZyBUaXplbiBERVZF
-TE9QRVIgUHVibGljIENBIENsYXNzMB4XDTE2MDcxMzA5MzgyNFoXDTE3MDcxMzA5MzgyNFowazER
+TE9QRVIgUHVibGljIENBIENsYXNzMB4XDTE2MDcxMjA2NDU1OFoXDTE3MDcxMjA2NDU1OFowbjER
 MA8GA1UEAwwIVGl6ZW5TREsxCTAHBgNVBAsMADEJMAcGA1UECgwAMQkwBwYDVQQHDAAxCTAHBgNV
-BAgMADEJMAcGA1UEBhMAMR8wHQYJKoZIhvcNAQkBFhBkcmVraS5saUBtYWlsLnJ1MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq2XzURFimbVNVfmDOf01x9UZY41NiugTDVjPtz12Kgjq
-V80Vqu3scGV+3Dspv1tozi1DP/UKwctlLlygtOqOvdUXZML8LPKUc19hg2MtrEQle/CuZUdk3tvD
-KYA6mHc6d8XaKco6dGVR04rVHEs5aA70dMt9aySTiE7f/3LwdjYYKCmSg6ZfleaGi3QwgxndOiLt
-dXJHUaa+j6XH8ccyDK5d40CaeaPJ0B+RH0JXwQXAMEfBjFeHqxkIDhGapVoojuA0SxeUrNCEycy7
-bnSzRlClM567/l8iE/Jay2+/+12G/de3uoSzQp6f25/LddMv1zrIQiNuZd9m5AmthzcskQIDAQAB
-oxowGDAJBgNVHRMEAjAAMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEAeeIxmlxr0YTz
-G2LeNiD8wTyhoxVX1LwJBOx/0eeg3hWKwn0A6HW0MovOeHzwmz/swWEPG7z5UmvLIarkEcyBTUKx
-i5KChLL5a4QPbkFnrGPRU0pNozRfTOGEQpEZn5/ggW8d4SxsJuhAAAn7UZ4TMtorCxRWkwTqCDFf
-R27BqjZvA87qsnrmhWrqxskUx9wn+AYCwCIMMc4bPx23tvoooHFmAAFUUKTUPu7ox7pefSDfUtdO
-YCMv0oLYLyafPeA8lDa4OtY+Sx6q8E2cgcPdHpQkmAbNYenG9gfiwwzyxlNKI7ia09FYGm5W2E0k
-BJVCRfU1gX6KhnvinaXnINZWow==
+BAgMADEJMAcGA1UEBhMAMSIwIAYJKoZIhvcNAQkBFhNtYXJrbWFrNzdAZ21haWwuY29tMIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmxHLfGyKfDFrVfQPZmo8ulp97wbeGiuBt7i7DUSu
+SP8xTJZrqgAOmnrJc2CS86vHVw96C9JPQOVsJuxmF7cTdWgKGi1upN5agBejEsQYBA4G2tVZQhbN
+il18eRNzlBmzDXafMN3aopleV9hb+SbvE9zreOvsnASCGMJ+enFVPGNEPxucMqElXfobDKWhQSva
+Qoc8ETE1OzoSQJ1QGwQqQRxFGH2gnJxgaJ55CcNccTphgDOZ5UWSbeVmgf7wG3ubZnoGQVu5CU6y
+J1MTVPiUEj507HMAWZlLKCTQ7KzQ6QbWx8waW/KG70P36mvUmKES1JPX5Aa7+6JMAT5sJmtGyQID
+AQABoxowGDAJBgNVHRMEAjAAMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEAbbK7MrI7
+oDNIRk0itc+tCTE6LEwekeimYB9+bCChJwiWrk/YARVnSRJqfw2O6yEpmZd5nbobU0NUA2x/wv3R
+uekprOyurxXNA7Xatu5vHHYnoXH8G+4b9YbG57W6rTQzSy6tDLHdWdlXhDqlTaHACbWlz/SIFI6Y
+qnKEekLYZL60ZtBu88Umzh9I1J8uWVJA/dEX3swahWMIHfecLBpGWETPg6FfndiH2buhoDzAfcJr
+vtkAHqToX9DGfwmup8mMmwqHjcqnPIRK2fGw9nN+kSzsdMJXQ7gYgzSXyZLAtUDNJqK8r/vEB7O3
+SF8T3l23m95z24KQcINyUpzOb2Sj2Q==
 </X509Certificate>
 <X509Certificate>
 MIIDuzCCAqOgAwIBAgICL+cwDQYJKoZIhvcNAQELBQAwgY8xCzAJBgNVBAYTAktSMRQwEgYDVQQI
