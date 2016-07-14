@@ -8,6 +8,10 @@
 	top: 0px;
 	left: 0px;
 }
-#circleprogress{
-	display: none;
+#inputbox{
+font-size: 30px;
+bottom: 150px;
+position: fixed;
+width: 60%;
+left: 20%;
 }
