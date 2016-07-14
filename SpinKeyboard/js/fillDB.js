@@ -39,19 +39,21 @@ var indexedDB = window.indexedDB || window.mozIndexedDB
 }());
 
 function showDataRecord(pattern) {
+	console.log(pattern);
 	var transaction = db.transaction([ storeName ], "readonly");
 	var objectstore = transaction.objectStore(storeName);
-	if (objectstore != null) {
+	if (objectstore !== null) {
 
 		var request = objectstore.get(pattern);
-		if (request != null) {
+		if (request !== null) {
 			request.onsuccess = function(event) {
 				console.log(event);
 				var res = event.target.result;
 				console.log(res);
-				alert(res["word"]);
-			}
-		} else
+				document.getElementById("result").innerHTML += res.word + " ";
+			};
+		} else {
 			console.log("request is null");
+		}
 	}
 }

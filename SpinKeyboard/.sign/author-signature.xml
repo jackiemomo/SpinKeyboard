@@ -12,7 +12,7 @@
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Rs6Yjei+pCC9mL0ae+k1nqKQV/+EDc6PoWWxdns1XNM=</DigestValue>
+<DigestValue>F26jQMiiF2NukPu3nv4ZPNr3XNp+nbgx6leqsjDfQ50=</DigestValue>
 </Reference>
 <Reference URI="css%2Fimages%2Fb_more_option_delete_icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -68,7 +68,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>pzUz19/JdtyPiPu6AilU8U84DGySni0Ygv352BM9Zyc=</DigestValue>
+<DigestValue>ZujanFon99aW9ESo80Niwzz2JYLsLjv9ySQv1Lkv8lk=</DigestValue>
 </Reference>
 <Reference URI="js%2Fapp.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -80,7 +80,7 @@
 </Reference>
 <Reference URI="js%2FfillDB.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>YHlEnM2kXWJxL2vljZcxtljN2gL67INZYMbCRqC4y6o=</DigestValue>
+<DigestValue>L/RSQ6jF+lyUoH8Zwn4Rxxxr4D35kOwZooZqAyF1Mj4=</DigestValue>
 </Reference>
 <Reference URI="js%2Fjquery-3.0.0.min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -96,7 +96,7 @@
 </Reference>
 <Reference URI="js%2FrotaryEvent.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>zQActn8PaA4YySJ5a2rMQJ1mZDMXAnT+mdEiEuEVvr4=</DigestValue>
+<DigestValue>iHvqvZD6SLgvQ5PnU0YB2ARo5yyYyobbTTDryViaRtE=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2FLICENSE.Flora">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1083,11 +1083,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-JLGxwuSq6zMVVilQRNkGm4mvvwlbqIqYEZDuKohdqwych6gDJdceSzIkLfcX06GjfwLfibhLFZ4J
-MDy4R/ksV8CrMbcEz13XV4kamZ9jO+jYkFO8vkvykqvjExY3r5UFjAbm3ARhNN7G0pYoMPD6Pd2v
-lcUS7bTTkRNuWO5LsMqtoqzZvFe7Tbwe9Br6/gZVelSZIxasaOvaSF0b03LQpR0FkrfVM5npvoWU
-XwPmMAE6MFNvRXDmwCxHVynkiG/vZgiy7Mq+HTJj/weGwUTEQXhNYRA3QPse8sbW9sP6omPbyZd2
-DlQ/yUARTbiU3zCziC5QFXPflcmWX7F/hrstjg==
+dgEjYZwJo6p+9A6a++Dpd7xrel9s2iR1EAgeWidQci4TtRyviJWrMXv1/8GD3+0ogyEap4upQyyx
+1pIknNfJmxZezEjR7cpwvgTTRXbqZQ88/Y4aXWKdudVNYsd5O0WKsVTWesdbCTXfauk78Idq+s6f
+zoe69w6rTYBs2csysFKE9tlEr3dvTvCrOvbRU62A1vAgVUIuOBeQTycraa0kqEBqmQVlibLZMf+Y
+jvXRaHfZuishvSknoVWoOQvtes3ISEX8ILSkMyucPxmOepiHUR+/p1HZmKs2kjSkb31ot3DD4p/A
+3FuMFcxR/sWWxM//0tttryq+Q7rrR7NcfQfpYQ==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
