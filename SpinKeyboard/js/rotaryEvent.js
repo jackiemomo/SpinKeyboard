@@ -48,7 +48,7 @@
 			}
 			$("#cursor").rotate((value - 1) * 360 / 26);
 			fixedchar = false;
-			funcTimeout1 = setTimeout(addLetterOnPause, 500);
+			funcTimeout1 = setTimeout(addLetterOnPause, 1000);
 		};
 
 		// Add rotarydetent handler to document
@@ -85,7 +85,7 @@
 	function addLetterOnPause() {
 		fixedchar = true;
 		command.push(value);
-		funcTimeout2 = setTimeout(finishTyping, 500);
+		funcTimeout2 = setTimeout(finishTyping, 1000);
 	}
 
 	function finishTyping() {
@@ -100,7 +100,7 @@
 		case 1:
 			allPossibleCombinations([ 3 ], function(a) {
 				if (!found)
-					found = showDataRecord((command[0] + a - 1));
+					found = showDataRecord(JSON.stringify(command[0] + a - 1));
 			})
 			break;
 		case 2:
