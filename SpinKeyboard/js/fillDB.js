@@ -227,7 +227,7 @@ function loadDB() {
 }
 
 function showDataRecord(pattern) {
-	console.log(pattern);
+//	console.log(pattern);
 	var transaction = db.transaction([ storeName ], "readonly");
 	var objectstore = transaction.objectStore(storeName);
 	if (objectstore !== null) {
@@ -235,9 +235,9 @@ function showDataRecord(pattern) {
 		var request = objectstore.get(pattern);
 		if (request !== null) {
 			request.onsuccess = function(event) {
-				console.log(event);
+//				console.log(event);
 				var res = event.target.result;
-				console.log(res);
+//				console.log(res);
 				if (res != undefined) {
 					document.getElementById("inputbox").innerHTML += res["word"]
 							+ " ";
@@ -247,7 +247,7 @@ function showDataRecord(pattern) {
 				}
 			};
 		} else {
-			console.log("request is null");
+//			console.log("request is null");
 		}
 	}
 }

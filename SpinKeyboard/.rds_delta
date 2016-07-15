@@ -1,6 +1,6 @@
 #delete
-res/wgt/SpinKeyboard.wgt
 #add
 #modify
 res/wgt/author-signature.xml
 res/wgt/signature1.xml
+res/wgt/js\rotaryEvent.js
